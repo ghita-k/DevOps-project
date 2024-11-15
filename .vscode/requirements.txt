@@ -1,0 +1,123 @@
+applicationinsights==0.11.10
+asgiref==3.7.2
+asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
+azure-iot-device==2.13.0
+backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+bcrypt==4.1.2
+beautifulsoup4==4.12.2
+blinker==1.9.0
+boltons @ file:///C:/ci_311/boltons_1677729932371/work
+bootstrap4==0.1.0
+brotlipy==0.7.0
+cached-property==1.5.2
+certifi @ file:///C:/b/abs_91u83siphd/croot/certifi_1700501720658/work/certifi
+cffi @ file:///C:/ci_311/cffi_1676423759166/work
+chardet==3.0.4
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click==8.1.7
+colorama @ file:///C:/ci_311/colorama_1676422310965/work
+comm @ file:///C:/ci_311/comm_1678376562840/work
+conda @ file:///C:/b/abs_04cd8uayv2/croot/conda_1696257511532/work
+conda-content-trust @ file:///C:/b/abs_e3bcpyv7sw/croot/conda-content-trust_1693490654398/work
+conda-libmamba-solver @ file:///C:/b/abs_a4898ikyjr/croot/conda-libmamba-solver_1696257577002/work/src
+conda-package-handling @ file:///C:/b/abs_b9wp3lr1gn/croot/conda-package-handling_1691008700066/work
+conda_package_streaming @ file:///C:/b/abs_6c28n38aaj/croot/conda-package-streaming_1690988019210/work
+crispy-bootstrap5==2023.10
+cryptography @ file:///C:/b/abs_f4do8t8jfs/croot/cryptography_1694444424531/work
+debugpy @ file:///C:/b/abs_c0y1fjipt2/croot/debugpy_1690906864587/work
+decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
+deprecation==2.1.0
+distlib==0.3.7
+distro==1.9.0
+Django==5.0.1
+django-adminlte3==0.1.6
+django-bootstrap4==23.4
+django-ckeditor==6.1.0
+django-ckeditor-5==0.2.11
+django-crispy-forms==2.1
+django-debug-toolbar==4.2.0
+django-jazzmin @ file:///C:/Users/Hp/OneDrive/Bureau/django/ecomprj/django-jazzmin
+django-js-asset==2.2.0
+django-paypal==2.0
+django-taggit==5.0.1
+docker==3.7.3
+docker-compose==1.24.0
+docker-pycreds==0.4.0
+dockerpty==0.4.1
+docopt==0.6.2
+executing @ file:///opt/conda/conda-bld/executing_1646925071911/work
+filelock==3.13.1
+Flask==3.1.0
+future==0.18.3
+idna==2.7
+iotedgehubdev==0.11.1
+ipykernel @ file:///C:/b/abs_07rkft_vaz/croot/ipykernel_1691121700587/work
+ipython @ file:///C:/b/abs_e5729i179y/croot/ipython_1694181400005/work
+iso8601==2.1.0
+itsdangerous==2.2.0
+janus==1.0.0
+jedi @ file:///C:/ci_311/jedi_1679427407646/work
+Jinja2==3.1.4
+jsonpatch @ file:///tmp/build/80754af9/jsonpatch_1615747632069/work
+jsonpath-rw==1.4.0
+jsonpointer==2.1
+jsonschema==2.6.0
+jupyter_client @ file:///C:/b/abs_a6h3c8hfdq/croot/jupyter_client_1699455939372/work
+jupyter_core @ file:///C:/b/abs_c769pbqg9b/croot/jupyter_core_1698937367513/work
+libmambapy @ file:///C:/b/abs_71g8gec0dd/croot/mamba-split_1694187821755/work/libmambapy
+MarkupSafe==3.0.2
+matplotlib-inline @ file:///C:/ci_311/matplotlib-inline_1676425798036/work
+menuinst @ file:///C:/ci_311/menuinst_1678730372782/work
+nest-asyncio @ file:///C:/ci_311/nest-asyncio_1676423519896/work
+packaging @ file:///C:/b/abs_28t5mcoltc/croot/packaging_1693575224052/work
+paho-mqtt==1.6.1
+paramiko==3.4.0
+parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
+paypal==1.2.5
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+Pillow==10.0.0
+platformdirs @ file:///C:/b/abs_b6z_yqw_ii/croot/platformdirs_1692205479426/work
+pluggy @ file:///C:/ci_311/pluggy_1676422178143/work
+ply==3.11
+prompt-toolkit @ file:///C:/ci_311/prompt-toolkit_1676425940920/work
+psutil @ file:///C:/ci_311_rebuilds/psutil_1679005906571/work
+pure-eval @ file:///opt/conda/conda-bld/pure_eval_1646925070566/work
+pycosat @ file:///C:/b/abs_31zywn1be3/croot/pycosat_1696537126223/work
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+Pygments @ file:///C:/b/abs_fay9dpq4n_/croot/pygments_1684279990574/work
+PyNaCl==1.5.0
+pyOpenSSL @ file:///C:/b/abs_08f38zyck4/croot/pyopenssl_1690225407403/work
+pypiwin32==223
+pyserial==3.5
+PySocks @ file:///C:/ci_311/pysocks_1676425991111/work
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+python-dotenv==0.21.1
+pytz==2023.3.post1
+pywin32==305.1
+PyYAML==6.0.2
+pyzmq @ file:///C:/b/abs_655zk4a3s8/croot/pyzmq_1686601465034/work
+requests==2.20.0
+requests-unixsocket==0.3.0
+ruamel.yaml @ file:///C:/ci_311/ruamel.yaml_1676439214109/work
+serial==0.0.97
+shortuuid==1.0.11
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+soupsieve==2.5
+sqlparse==0.4.4
+stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
+stripe==7.12.0
+texttable==0.9.1
+tornado @ file:///C:/b/abs_0cbrstidzg/croot/tornado_1696937003724/work
+tqdm @ file:///C:/b/abs_f76j9hg7pv/croot/tqdm_1679561871187/work
+traitlets @ file:///C:/ci_311/traitlets_1676423290727/work
+truststore @ file:///C:/b/abs_55z7b3r045/croot/truststore_1695245455435/work
+typing_extensions==4.9.0
+tzdata==2023.3
+urllib3==1.24.3
+virtualenv==20.24.6
+virtualenvwrapper-win==1.2.7
+wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
+websocket-client==0.59.0
+Werkzeug==3.1.3
+win-inet-pton @ file:///C:/ci_311/win_inet_pton_1676425458225/work
+zstandard==0.19.0
