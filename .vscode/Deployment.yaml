@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: video-upload-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: video-upload-service
+  template:
+    metadata:
+      labels:
+        app: video-upload-service
+    spec:
+      containers:
+      - name: mycontainerregistryp
+        image: mycontainerregistryp.azurecr.io/video-service:v1
+        resources:
+        ports:
+        - containerPort: 5000
+
+
+        
+
+
+

@@ -26,3 +26,28 @@ steps:
     repository: 'video-upload-service'
     command: 'push'
     tags: '$(Build.BuildId)'
+
+
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.x'
+    addToPath: true
+
+- script: |
+    pip install locust
+    locust -f locustfile.py --host=http://127.0.0.1:5000
+  displayName: 'Exécuter les tests de charge Locust'
+
+- script: |
+    curl -LO https://github.com/jeremylong/DependencyCheck/releases/download/v6.0.2/dependency-check-6.0.2-release.zip
+    unzip dependency-check-6.0.2-release.zip
+    cd dependency-check
+    ./bin/dependency-check.sh --project "Video Upload Project" --scan $(Build.SourcesDirectory)
+  displayName: 'Exécuter OWASP Dependency-Check'
+
+- script: |
+    curl -LO https://github.com/jeremylong/DependencyCheck/releases/download/v6.0.2/dependency-check-6.0.2-release.zip
+    unzip dependency-check-6.0.2-release.zip
+    cd dependency-check
+    ./bin/dependency-check.sh --project "Video Upload Project" --scan $(Build.SourcesDirectory)
+  displayName: 'Exécuter OWASP Dependency-Check'
